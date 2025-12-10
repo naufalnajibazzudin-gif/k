@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Roblox Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f2027, #2c5364, #1a2980);
+            color: #fff;
+            font-family: 'Orbitron', Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(30, 30, 60, 0.85);
+            border-radius: 20px;
+            box-shadow: 0 0 40px #00ffe7, 0 0 10px #1a2980;
+            padding: 60px 40px;
+            margin: 60px auto;
+            max-width: 600px;
+            position: relative;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px #00ffe7, 0 0 20px #1a2980;
+        }
+        .button {
+            background: linear-gradient(90deg, #00ffe7 0%, #1a2980 100%);
+            color: #222;
+            border: none;
+            border-radius: 12px;
+            padding: 18px 44px;
+            font-size: 1.5em;
+            font-family: 'Orbitron', Arial, sans-serif;
+            cursor: pointer;
+            box-shadow: 0 0 20px #00ffe7;
+            transition: background 0.3s, color 0.3s, transform 0.2s;
+            margin: 32px 0 0 0;
+        }
+        .button:hover {
+            background: linear-gradient(90deg, #1a2980 0%, #00ffe7 100%);
+            color: #fff;
+            transform: scale(1.05);
+        }
+        .futuristic-decor {
+            background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .neon-divider {
+            width: 60%;
+            height: 3px;
+            margin: 32px auto;
+            background: linear-gradient(90deg, #00ffe7 0%, #1a2980 100%);
+            border-radius: 2px;
+            box-shadow: 0 0 12px #00ffe7;
+            border: none;
+        }
+        .roblox-logo {
+            width: 100px;
+            margin-bottom: 1em;
+            filter: drop-shadow(0 0 10px #00ffe7);
+        }
+    </style>
+</head>
+<body>
+    <div class="futuristic-decor">
+        <div class="container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Roblox_Logo_2022.svg" alt="Roblox Logo" class="roblox-logo">
+            <h1>Welcome to the Futuristic Roblox Universe</h1>
+            <hr class="neon-divider">
+            <p style="font-size:1.3em; margin-bottom:2em;">Step into a digital world inspired by Roblox games. Explore, create, and play in a neon-lit playground where imagination meets technology!</p>
+            <button class="button" onclick="location.href='page2.html'">Enter Game</button>
+        </div>
+    </div>
+</body>
+</html>
